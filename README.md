@@ -105,24 +105,6 @@ brew install --cask vlc
 brew install --cask arc
 ```
 
-[visual-studio-code](https://code.visualstudio.com/)
-
-```bash
-brew install --cask visual-studio-code
-```
-
-[dbeaver](https://dbeaver.io/)
-
-```bash
-brew install --cask dbeaver-community
-```
-
-[bruno](https://www.usebruno.com/)
-
-```bash
-brew install --cask bruno
-```
-
 [firefox](https://www.mozilla.org/firefox/)
 
 ```bash
@@ -149,6 +131,27 @@ bob install stable
 
 - Install nvim flavor
 
+
+### Code preparation
+
+[visual-studio-code](https://code.visualstudio.com/)
+
+```bash
+brew install --cask visual-studio-code
+```
+
+[dbeaver](https://dbeaver.io/)
+
+```bash
+brew install --cask dbeaver-community
+```
+
+[bruno](https://www.usebruno.com/)
+
+```bash
+brew install --cask bruno
+```
+
 [mariadb](https://mariadb.org/)
 
 ```bash
@@ -156,6 +159,8 @@ brew install mariadb
 ```
 
 - Configure mariadb
+
+----------------
 
 ## Configure finder and docks
 
