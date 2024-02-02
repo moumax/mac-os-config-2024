@@ -2,6 +2,8 @@
 
 ## Softs to install
 
+### Base preparation
+
 [homebrew](https://brew.sh/)
 
 ```bash
@@ -14,7 +16,19 @@
 brew install iterm2
 ```
 
-font-iosevka[https://www.nerdfonts.com/font-downloads]
+[nvm](https://github.com/nvm-sh/nvm)
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```
+
+[rustup](https://www.rust-lang.org)
+
+```bash
+brew install rust
+```
+
+[font iosevka](https://www.nerdfonts.com/font-downloads)
 
 ```bash
 wget https://github.com/moumax/mac-setup/raw/main/font/Iosevka.zip
@@ -27,6 +41,7 @@ zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) 
 ```
 
 - Install in .zshrc plugins needed
+
 
 [git](https://git-scm.com/)
 
@@ -46,6 +61,8 @@ git config --global init.defaultBranch main
 git config --global core.editor "code --wait"
 ```
 
+### Macos optimisation
+
 [onemenu](https://www.withmarko.com/one-menu)
 
 - version 2.6.0 (1/02/2024)
@@ -64,6 +81,14 @@ brew install alt-tab
 brew install --cask raycast
 ```
 
+[appcleaner](https://freemacsoft.net/appcleaner/)
+
+```bash
+brew install --cask appcleaner
+```
+
+### Softwares
+
 [vlc](https://www.videolan.org/vlc/)
 
 ```bash
@@ -74,12 +99,6 @@ brew install --cask vlc
 
 ```bash
 brew install --cask arc
-```
-
-[appcleaner](https://freemacsoft.net/appcleaner/)
-
-```bash
-brew install --cask appcleaner
 ```
 
 [visual-studio-code](https://code.visualstudio.com/)
@@ -106,23 +125,11 @@ brew install --cask bruno
 brew install --cask firefox
 ```
 
-[nvm](https://github.com/nvm-sh/nvm)
-
-```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-```
-
 - add export in .zshrc
 
 ```bash
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" ## This loads nvm
-```
-
-[rustup](https://www.rust-lang.org)
-
-```bash
-brew install rust
 ```
 
 [bob](https://github.com/MordechaiHadad/bob)
@@ -135,6 +142,8 @@ brew install bob
 ```bash
 bob install stable
 ```
+
+- Install nvim flavor
 
 [mariadb](https://mariadb.org/)
 
