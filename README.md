@@ -61,6 +61,8 @@ git config --global init.defaultBranch main
 git config --global core.editor "code --wait"
 ```
 
+----------------
+
 ### Macos optimisation
 
 [onemenu](https://www.withmarko.com/one-menu)
@@ -86,6 +88,8 @@ brew install --cask raycast
 ```bash
 brew install --cask appcleaner
 ```
+
+----------------
 
 ### Softwares
 
