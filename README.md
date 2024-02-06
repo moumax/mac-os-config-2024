@@ -167,3 +167,17 @@ brew install mariadb
 ## Sync google calendar with apple calendar
 
 [Support google](https://support.google.com/calendar/answer/99358?hl=en&co=GENIE.Platform%3DDesktop)
+
+## Configuration of the keyboard
+
+### To speedup keyboard
+```bash
+defaults write -g InitialKeyRepeat -int 10
+defaults write -g KeyRepeat -int 1
+```
+
+### To add repetition on vscode or zed
+
+```bash
+defaults write -g ApplePressAndHoldEnabled -bool false
+```
