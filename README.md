@@ -197,3 +197,5 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 ## TODOS
 
 - Save iterm2 configuration file (save Json on gui settings)
+- Save .zshrc on mac-setup repo
+- Add jj to zed configuration
