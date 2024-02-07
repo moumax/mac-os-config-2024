@@ -77,6 +77,10 @@ brew install alt-tab
 
 - Change shortcut to alt tab
 
+[battery-toolkit](https://github.com/mhaeuser/Battery-Toolkit)
+
+- Download the last release and unzip it.
+
 [raycast](https://www.raycast.com/)
 
 ```bash
@@ -87,6 +91,12 @@ brew install --cask raycast
 
 ```bash
 brew install --cask appcleaner
+```
+
+[htop](https://htop.dev/)
+
+```bash
+brew install htop
 ```
 
 ----------------
@@ -181,3 +191,9 @@ defaults write -g KeyRepeat -int 1
 ```bash
 defaults write -g ApplePressAndHoldEnabled -bool false
 ```
+
+----------------
+
+## TODOS
+
+- Save iterm2 configuration file (save Json on gui settings)
